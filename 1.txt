@@ -1,0 +1,25 @@
+agriculture_assessment/
+├── includes/
+│   ├── config.php          # Database connection (mysqli_connect)
+│   ├── auth.php           # Authentication logic (session check, isAdmin)
+├── css/
+│   ├── styles.css         # Custom CSS (optional, if not relying solely on Tailwind)
+├── js/
+│   ├── scripts.js         # Custom JavaScript (optional, for client-side enhancements)
+├── index.php              # Login page (public, serves as entry point)
+├── dashboard.php          # Main dashboard (for all logged-in users)
+├── data-entry.php         # Data entry page (admin-only)
+├── header.php             # Navigation header (personalized, used across pages)
+├── logout.php             # Logout script (clears session)
+├── regions.php            # Placeholder for regional data page
+├── schemes.php            # Placeholder for beneficiary schemes page
+├── reports.php            # Placeholder for reports page
+├── settings.php           # Placeholder for settings page
+├── signup.php             # Placeholder for user registration page
+├── update_passwords.php   # One-time script to hash user passwords
+├── .htaccess              # Optional: Security rules (e.g., deny access to includes/)
+├── README.md              # Project documentation (optional)
+
+
+
+f you want an admin/ folder, I can reorganize the files.
